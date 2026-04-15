@@ -21,6 +21,8 @@ def listar_projetos():
     for i, arquivo in enumerate(arquivos, 1):
         nome_exibicao = arquivos.replace("projeto_", "").replace(".json", "'").replace("_", " ")
         print(f"{i}. {nome_exibicao.title()}")
+    return arquivos
+     
 
 
         return arquivos
